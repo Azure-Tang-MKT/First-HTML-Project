@@ -32,15 +32,30 @@ p {
     font-family: helvatica;
 }
 
+.image-box img {
+    height: 150px;
+    border-radius: 50%;
+}
+
 .main-text {
     text-align: justify;
     color:rgb(158, 45, 45);
     margin-bottom: 20px;
 }
 
+.container {margin-left: 10%; margin-right: 40%;}
+
+.other-post {margin-left: 55%;margin-right: 10%;}
+
+
 #author-Text {
     font-size: 22px;
     color:rgb(158, 45, 45)
 }
-//why this ID doesn't work?
+
+/* why this ID doesn't work? */
+ 
+
+
+    
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container1 {
+  position:relative;
+  width: 90%;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.container2 {
+  position: absolute;
+  right: 30px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="container1">
+  <div class="container2">This div element has position</div>
+</div>
+
+</body>
+</html>
